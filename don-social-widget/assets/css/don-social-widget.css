@@ -1,0 +1,25 @@
+.dsw-select-add-network {
+	float: none !important;
+}
+.dsw-btn {
+	background-color: #777;
+	color: #fff;
+	padding: 6px 10px;
+	text-transform: uppercase;
+	text-decoration: none;
+}
+.dsw-fielset {
+	border: 1px solid #e5e5e5;
+	padding: 0 10px;
+}
+.dsw-item {
+	border-bottom: 1px solid #e5e5e5;
+	display: none;
+}
+.dsw-item-show {
+	display: block;
+}
+.dsw-no-data {
+	background-color: #ff0000;
+	/*display: none;*/
+}

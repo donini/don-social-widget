@@ -1,0 +1,118 @@
+msgid ""
+msgstr ""
+"Project-Id-Version: Don Social Widget\n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2016-10-20 09:12+0900\n"
+"PO-Revision-Date: 2016-10-20 02:06-0300\n"
+"Last-Translator: \n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"X-Poedit-SourceCharset: UTF-8\n"
+"X-Poedit-KeywordsList: __;_e;__ngettext:1,2;_c;_n:1,2;_x\n"
+"X-Poedit-Basepath: ../..\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 1.6.3\n"
+"Language: en_US\n"
+"X-Poedit-SearchPath-0: contact-form-7\n"
+
+#: don-social-widget/don-social-widget.php:30
+msgid "Social Widget: Follow us"
+msgstr ""
+
+#: don-social-widget/don-social-widget.php:31
+msgid "Add links of your social networks"
+msgstr ""
+
+#: don-social-widget/don-social-widget.php:126
+msgid "Follow us"
+msgstr ""
+
+#: don-social-widget/don-social-widget.php:136
+msgid "List of social networks:"
+msgstr ""
+
+#: don-social-widget/don-social-widget.php:142
+msgid "Add"
+msgstr ""
+
+#: don-social-widget/don-social-widget.php:142
+msgid "Remove"
+msgstr ""
+
+#: don-social-widget/don-social-widget.php:148
+msgid "Select and add a social network."
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:77
+msgid "Social Widget"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:86
+msgid "Social Widget Options"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:104
+msgid "Widget Options"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:107
+msgid "Icon Size"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:110
+msgid "Icon color"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:113
+msgid "Show social name"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:116
+msgid "Target link"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:119
+msgid "Orientation"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:130
+msgid "Smallest"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:131
+msgid "Small"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:132
+msgid "Medium"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:133
+msgid "Large"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:134
+msgid "Huge"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:156
+msgid "New Tab"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:157
+msgid "New Window"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:158
+msgid "Parent Window"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:170
+msgid "Horizontal"
+msgstr ""
+
+#: don-social-widget/dsw_settings.php:171
+msgid "Vertical"
+msgstr ""
