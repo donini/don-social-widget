@@ -7,7 +7,7 @@
  * Author URI:      https://profiles.wordpress.org/rodrigodonini
  * Text Domain:     don-social-widget
  * Domain Path:     /languages
- * Version:         0.1.1
+ * Version:         0.1.2
  *
  * @package         Don_Social_Widget
  */
@@ -54,14 +54,16 @@ class Widget_Social_Helper  extends WP_Widget{
 			echo '<style> 
 			.dsw-item-row:first-child { margin-left: 0; }
 			.dsw-item-row:last-child { margin-right: 0; }
-			.dsw-item-row { margin: 0 5px; display: ' . $this->options['orientation']. '; } 
-			.dsw-widget-front-item { text-decoration: none; font-size: ' . $this->options['icon_size'] . 'px; color: ' . $this->options['icon_color'] . '; } </style>';
+			.dsw-item-row { margin: 5px; display: ' . $this->options['orientation']. '; } 
+			.dsw-widget-front-item { text-decoration: none; font-size: ' . $this->options['icon_size'] . 'px; color: ' . $this->options['icon_color'] . '; } 
+			.dsw-widget-front-item i { display: inline-block; min-width: 30px; text-align: center; }
+			</style>';
 			echo '<ul class="dsw-list">';
 			foreach ($instance['dsw_social_networks'] as $key => $value) {
 				if (!empty($value)) {
 					$net_name = ($this->options['show_social_name'] == 'true') ? $nets[$key] : '';
 					echo '<li class="dsw-item-row">';
-						echo '<a class="dsw-widget-front-item" target="' . $this->options['target'] . '" href="' . sprintf($nets_urls[$key], $value) . '"><i class="fa fa-' . $key . '"></i> '. $net_name . '</a>';
+						echo '<a class="dsw-widget-front-item" target="' . $this->options['target'] . '" href="' . sprintf($nets_urls[$key], $value) . '"><i class="fa fa-' . $key . '"></i> <span class="text">'. $net_name . '</span></a>';
 					echo '</li>';
 				}
 			}
